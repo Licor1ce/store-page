@@ -1,0 +1,187 @@
+body {
+  font-family: "Kalnia", serif;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.ul-reset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.top__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+.top__container--text {
+  color: #000;
+  font-size: 0.9rem;
+  width: 2%;
+}
+.top__container--text--telf {
+  color: #424242;
+}
+.top__container--logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+.top__container--image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.tittle {
+  text-align: center;
+  font-weight: initial;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), color-stop(green), to(yellow));
+  background-image: linear-gradient(90deg, orange, green, yellow);
+  padding: 0.5rem;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #696969;
+}
+.nav__ul {
+  gap: 1.5rem;
+}
+.nav__li {
+  color: #424242;
+  font-size: 0.9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+.nav__image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid #696969;
+}
+.nav__image:hover {
+  border: 2px solid orange;
+}
+.nav__image--active {
+  border: 2px solid orange;
+}
+.nav__outlet {
+  color: orange;
+  font-weight: bold;
+}
+
+.store-tittle {
+  color: #424242;
+  font-weight: initial;
+  margin-right: 3rem;
+}
+.store-tittle--border {
+  border-bottom: 1px solid orange;
+  padding-bottom: 0.5rem;
+}
+
+.store-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.product__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.product__text {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.product__text--name {
+  font-size: 1rem;
+  color: #000;
+  margin: 0.5rem;
+}
+.product__text--description {
+  margin: 0.5rem;
+  font-size: 0.5rem;
+  color: #424242;
+}
+.product__text--prize {
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  color: #000;
+}
+.product__img {
+  width: 20rem;
+  height: 20rem;
+}
+/*# sourceMappingURL=main.css.map */
